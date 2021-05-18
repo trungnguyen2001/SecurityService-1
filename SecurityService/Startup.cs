@@ -48,6 +48,11 @@ namespace SecurityService
 
             app.UseEndpoints(endpoints =>
             {
+                /*admin*/
+                endpoints.MapControllerRoute(
+                name: "Admin",
+                pattern: "{area:exists}/{controller=Admin}/{action=All_Infor}/{id?}");
+                /*user*/
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
