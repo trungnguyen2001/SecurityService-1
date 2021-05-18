@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityService", "SecurityService\SecurityService.csproj", "{DCF34F5F-A604-4FDA-A3CD-0FD55B4500F7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIAdmin", "WebAPIAdmin\WebAPIAdmin.csproj", "{D65BE220-5282-4D4E-8FD2-9F5C6286D155}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIUser", "WebAPIUser\WebAPIUser.csproj", "{87244344-AD2A-4EF0-A051-856208EAAB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityService", "SecurityService\SecurityService.csproj", "{09A278C0-68C6-4394-981E-39165729C876}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DCF34F5F-A604-4FDA-A3CD-0FD55B4500F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCF34F5F-A604-4FDA-A3CD-0FD55B4500F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCF34F5F-A604-4FDA-A3CD-0FD55B4500F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCF34F5F-A604-4FDA-A3CD-0FD55B4500F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D65BE220-5282-4D4E-8FD2-9F5C6286D155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D65BE220-5282-4D4E-8FD2-9F5C6286D155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65BE220-5282-4D4E-8FD2-9F5C6286D155}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{87244344-AD2A-4EF0-A051-856208EAAB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87244344-AD2A-4EF0-A051-856208EAAB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87244344-AD2A-4EF0-A051-856208EAAB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A278C0-68C6-4394-981E-39165729C876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A278C0-68C6-4394-981E-39165729C876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A278C0-68C6-4394-981E-39165729C876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A278C0-68C6-4394-981E-39165729C876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

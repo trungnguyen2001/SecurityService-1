@@ -1,0 +1,108 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Contact Us";
+    Layout = "_layout";
+}
+<style>
+    .container {
+        padding: 40px 0 50px;
+    }
+
+    .swiper-container {
+        display: none;
+    }
+
+    .myNav {
+        padding: 15px;
+        position: sticky;
+        background: black;
+    }
+    .contact{
+        background:url(../img/Contact.jpeg);
+       height:50vh;
+       background-size:100% 100%;
+    }
+    .contact-title {
+        position: relative;
+        top: 50%;
+        justify-content: center;
+        transform: translate(0%, -50%);
+        align-items: center;
+        text-align: center;
+        color:#fff;
+        letter-spacing:2px;
+        
+    }
+    .contact-title h1{
+        font-size:70px;
+        filter:drop-shadow(2px 0px 1px #fff);
+    }
+    .contact-content {
+        display: flex;
+        position: relative;
+        height: 70vh;
+        z-index:1000;
+        margin-top:50px;
+    }
+    .contact-header {
+        width: 350px;
+        position: absolute;
+        top: 40px;
+        position: absolute;
+        height: calc(100% - 80px);
+        display: flex;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        background: #5c5d5f;
+        background: linear-gradient(to right, rgba(92,93,95,0.8), rgba(92,93,95,1));
+        z-index: 1;
+        border-radius: 20px;
+    }
+    .contact-body {
+        position: absolute;
+        padding: 70px 50px;
+        padding-left: 200px;
+        margin-left: 150px;
+        width: calc(100% - 150px);
+        height: 100%;
+        background: linear-gradient(0,0,0,0.5);
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .mapsite{
+        position:relative;
+        height:50vh;
+        width:100%;
+        box-shadow:0 5px 10px rgba(0,0,0,0.2);
+        margin-top:40px;
+    }
+</style>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../Home/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+    </nav>
+    <div class="contact">
+        <div class="contact-title">
+            <h1> Contact Us</h1>
+        </div>
+    </div>
+    <div class="contact-content">
+        <div class="contact-header">
+            <h1> Contact Info </h1>
+            <ul>
+                <li></li>
+            </ul>
+
+        </div>
+        <div class="contact-body">
+
+        </div>
+    </div>
+    <div class="mapsite">
+        <iframe class="mapsite" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2836021521402!2d106.69295791517486!3d10.789577392312616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cb4b06988b%3A0xed698da3b386547a!2zMjIgUGhhbiBMacOqbSwgxJBhIEthbywgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1621302201935!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
